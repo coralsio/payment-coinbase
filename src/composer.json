@@ -1,0 +1,10 @@
+{
+  "require": {
+    "corals/payment": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "CoinbaseCommerce\\": "./coinbase-commerce-php/"
+    }
+  }
+}

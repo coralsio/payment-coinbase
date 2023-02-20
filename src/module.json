@@ -1,0 +1,19 @@
+{
+  "code": "corals-payment-coinbase",
+  "name": "Coinbase Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices...",
+  "namespace": "Corals\\Modules\\Payment\\Coinbase",
+  "version": "1.0.1",
+  "folder": "Coinbase",
+  "autoload": "psr-4",
+  "icon": "fa fa-btc",
+  "require": {
+    "corals-payment": "^5.0.2"
+  },
+  "supported_platforms": [
+    "Ecommerce",
+    "Subscription"
+  ]
+}

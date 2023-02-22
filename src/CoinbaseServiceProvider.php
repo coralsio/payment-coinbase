@@ -2,21 +2,26 @@
 
 namespace Corals\Modules\Payment\Coinbase;
 
-use Illuminate\Support\ServiceProvider;
+use Corals\Foundation\Providers\BasePackageServiceProvider;
 use Corals\Settings\Facades\Modules;
 
-class CoinbaseServiceProvider extends ServiceProvider
+class CoinbaseServiceProvider extends BasePackageServiceProvider
 {
+    /**
+     * @var
+     */
     protected $defer = false;
-
+    /**
+     * @var
+     */
+    protected $packageCode = 'corals-payment-coinbase';
     /**
      * Bootstrap the application events.
      *
      * @return void
      */
-    public function boot()
+    public function bootPackage()
     {
-        $this->registerModulesPackages();
     }
 
     /**
@@ -24,7 +29,7 @@ class CoinbaseServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function registerPackage()
     {
     }
 

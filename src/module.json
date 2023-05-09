@@ -6,7 +6,7 @@
   "description": "Payment Gateway, charges, subscriptions, invoices...",
   "namespace": "Corals\\Modules\\Payment\\Coinbase",
   "version": "1.0.1",
-  "folder": "Coinbase",
+  "folder": "payment-coinbase",
   "autoload": "psr-4",
   "icon": "fa fa-btc",
   "require": {

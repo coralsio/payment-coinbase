@@ -28,6 +28,7 @@ The webhook URL should be https://your-website.com/webhooks/coinbase
 <p><img src="https://www.laraship.com/wp-content/uploads/2021/02/coinbase-webhook-subscription.png"></p>
 <p>&nbsp;</p>
 
+
 ## Installation
 
 You can install the package via composer:
@@ -35,6 +36,14 @@ You can install the package via composer:
 ```bash
 composer require corals/payment-coinbase
 ```
+
+## Questions & Answers
+If you faced any issue you can check our questions center, and you can post your question from the following link
+[Questions & Answers](https://www.laraship.com/laraship-questions/)  
+
+## Online Documentation 
+follow the [Online Docs](https://www.laraship.com/docs/laraship/payment-modules/coinbase-configuration/) to see more about this module 
+
 
 ## Testing
 

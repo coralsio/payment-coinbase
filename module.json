@@ -10,7 +10,7 @@
     "autoload": "psr-4",
     "icon": "fa fa-btc",
     "require": {
-        "corals-payment": "^5.0.2"
+        "corals-payment": "^10.0.0"
     },
     "supported_platforms": [
         "Ecommerce",

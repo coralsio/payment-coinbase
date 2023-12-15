@@ -1,7 +1,8 @@
 # Corals Payment Coinbase
 
+* Laraship Laravel Coinbase Payments Plugin is the first Laravel Plugin for handling recurring billing for Coinbase. integrate Coinbase seamlessly with Laraship Laravel Subscription Platform, You can enable it along with other subscription gateways like stripe,authorize.net, 2checkout, SecurionPay, or even offline bank payments; which is already built-in with Laraship Subscriptions platform, or configure it as a standalone payment gateway.
+
 ### Installation instructions
- 
 
 - Extract the zip file and copy the Coinase folder under Corals\modules\Payment\Coinbase.
 
